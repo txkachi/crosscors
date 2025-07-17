@@ -1,22 +1,25 @@
 {
-  "name": "cart",
+  "name": "crosscors",
   "version": "1.0.0",
-  "main": "dist/index.js",
+  "description": "A blazing fast, advanced CORS middleware for Node.js.",
+  "main": "./dist/crosscors.js",
   "types": "./dist/crosscors.d.ts",
-  "scripts": {
-    "test": "echo \"No tests yet.\" && exit 0",
-    "example": "node ./example/server.js"
+  "keywords": [
+    "cors",
+    "cross-origin",
+    "middleware",
+    "nodejs",
+    "typescript",
+    "http",
+    "no-dependencies",
+    "fast",
+    "security"
+  ],
+  "author": "txkachi",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/txkachi/crosscors.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "devDependencies": {
-    "@types/node": "^24.0.14",
-    "typescript": "^5.8.3"
-  },
-  "dependencies": {
-    "@types/express": "^5.0.3",
-    "express": "^5.1.0"
-  }
+  "homepage": "https://github.com/txkachi/crosscors#readme"
 }

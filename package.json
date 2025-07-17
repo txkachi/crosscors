@@ -1,6 +1,6 @@
 {
   "name": "crosscors",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A blazing fast, advanced CORS middleware for Node.js.",
   "main": "./dist/imdex.js",
   "types": "./dist/crosscors.d.ts",

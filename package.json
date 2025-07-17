@@ -1,0 +1,22 @@
+{
+  "name": "cart",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "./dist/crosscors.d.ts",
+  "scripts": {
+    "test": "echo \"No tests yet.\" && exit 0",
+    "example": "node ./example/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^24.0.14",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@types/express": "^5.0.3",
+    "express": "^5.1.0"
+  }
+}
